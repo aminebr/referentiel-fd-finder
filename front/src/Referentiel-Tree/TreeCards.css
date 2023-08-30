@@ -1,0 +1,67 @@
+
+.card-list-container {
+    overflow-x: scroll; /* Allow horizontal scrolling */
+  }
+  
+  .card-list {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent cards from wrapping to new lines */
+    padding: 10px; /* Add padding for the scrollbar */
+    overflow-x: scroll; /* Allow horizontal scrolling */
+  
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    white-space: nowrap; /* Prevent line breaks */
+    min-width: 250px; /* Set a fixed width for the cards */
+    flex-shrink: 0; /* Prevent cards from shrinking */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  .card h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    cursor: pointer;
+    overflow: hidden; /* Hide any overflow */
+    text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+  }
+  
+  .card p {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .card ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 14px;
+  }
+  
+  .card li {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  
+  .card button:hover {
+    background-color: #0056b3;
+  }
+  

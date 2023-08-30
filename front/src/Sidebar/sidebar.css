@@ -1,0 +1,15 @@
+.sidebar ul {
+    padding: 0;
+  }
+  
+.sidebar li {
+    text-align: center;
+    margin: 10px 0;
+    list-style-type: none; /* Remove the li dot */
+    border-bottom: 1px solid #ccc; /* Add a border at the top of each option */
+    padding-top: 5px; /* Add spacing between border and text */
+}
+
+h3 {
+    text-align: center;
+}
